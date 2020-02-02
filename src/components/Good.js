@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default function Goods(props) {
+export default function Good(props) {
     return (
         <div className="productsBorder">
         <article>

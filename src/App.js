@@ -1,6 +1,6 @@
 import React from 'react'
 import './App.css';
-import Goods from './components/Goods'
+import Good from './components/Good'
 
 
 export default function App() {
@@ -19,10 +19,10 @@ export default function App() {
 
   <div className = "container"><h1>Приглядитесь к этим предложениям</h1></div>
     <div className="Block">
-      <Goods  imgUrl = { products[0].imgUrl } price = {products[0].price}  productName ={products[0].productName} productLink = {products[0].productLink} />
-      <Goods  imgUrl = { products[1].imgUrl } price = {products[1].price}  productName ={products[1].productName} productLink = {products[1].productLink} />
-      <Goods  imgUrl = { products[2].imgUrl } price = {products[2].price}  productName ={products[2].productName} productLink = {products[2].productLink} />
-      <Goods  imgUrl = { products[3].imgUrl } price = {products[3].price}  productName ={products[3].productName} productLink = {products[3].productLink} />
+      <Good  imgUrl = { products[0].imgUrl } price = {products[0].price}  productName ={products[0].productName} productLink = {products[0].productLink} />
+      <Good  imgUrl = { products[1].imgUrl } price = {products[1].price}  productName ={products[1].productName} productLink = {products[1].productLink} />
+      <Good  imgUrl = { products[2].imgUrl } price = {products[2].price}  productName ={products[2].productName} productLink = {products[2].productLink} />
+      <Good  imgUrl = { products[3].imgUrl } price = {products[3].price}  productName ={products[3].productName} productLink = {products[3].productLink} />
     </div>
   </div>
     
